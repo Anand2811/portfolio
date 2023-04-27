@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ h1{
+    background-color:greenyellow;
+    padding: 30px;
+    margin-bottom: 150px;
+    color:gray;
+    position: sticky;
+    top:0;
+}
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 150x;
+    padding: 50px;
+    gap: 5%;
+
+}
+img{
+
+    width: 35%;
+    border-radius: 50%;
+}
+.container p{
+    background-color: aqua;
+    padding: 50px;
+    margin-left: 60px;
+    border-radius: 0px 30px 30px 40px;
+    width: 40%;
+    font-size: 30px;
+}
+.head h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 60px;
+}
+span{
+    color: rgb(170, 6, 105);
+}
+.skill{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+.skill img{
+    width:150px;
+    height: 150px;
+    padding: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(234 , 234 , 232);
+    border-radius: 0%;
+    box-shadow: 7px 5px 10px blueviolet;
+}
+.skill img:hover{
+    background-color: violet;
+}
+.sec{
+    background-color: greenyellow;
+}
+.skill h4{
+    color: rgb(49 ,49 ,48);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skill h4::first-letter{
+    color:rgb(170, 6, 105);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+.cards h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.cards h5::first-letter{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: violet;
+}
+.cards button{
+    background-color:darkblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cards button:hover{
+    background-color: aqua;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cards img{
+    width: 100%;
+    height: 300px;
+    border-radius: 0%;
+    margin-bottom: 10px;
+}
+
+.card1{
+    border: 2px solid darkkhaki;
+    box-shadow: 3px 4px 2px lightskyblue;
+    margin: 15px;
+    padding: 20px;
+}
